@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundpic"
+    android:id="@+id/firstlayout">
+
+    <TextView
+        android:id="@+id/detailsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breakout Game"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        />
+
+    <Button
+
+        android:layout_height="wrap_content"
+        android:id="@+id/start_btn"
+        android:layout_gravity="center_horizontal"
+        android:text="Start"
+        android:background="#FF8C00"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_width="100dp"
+        android:textSize="25dp"
+        android:onClick="Start"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/score_btn"
+        android:text="Score"
+        android:background="#FF8C00"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:onClick="Start"
+        />
+
+</LinearLayout>
